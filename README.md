@@ -1,7 +1,9 @@
 # karate-sikulix-demo
 Demo of using [Karate](https://github.com/intuit/karate) and [SikuliX](http://sikulix.com) for visual testing of Windows desktop apps.
 
-What is notable is how you can use the [Karate UI](https://github.com/intuit/karate/wiki/Karate-UI) to step-through and debug / troubleshoot tests. 
+What is notable is how you can use the [Karate UI](https://github.com/intuit/karate/wiki/Karate-UI) to step-through and debug / troubleshoot tests. Click the image below to watch a demo video.
+
+<a href="https://twitter.com/ptrthomas/status/1139227647496445952"><img src="https://pbs.twimg.com/ext_tw_video_thumb/1139227560850575360/pu/img/n98Gzn50Wdxdg3NK.jpg" height="300" /></a>
 
 ## Instructions
 * only a [Java Runtime Environment](https://www.oracle.com/technetwork/java/javase/downloads/index.html) (JRE) is needed as a pre-requisite (version 1.8.0_112 or greater)
@@ -15,7 +17,6 @@ What is notable is how you can use the [Karate UI](https://github.com/intuit/kar
   * `karate calc.feature`
 * you can also step-through using the Karate UI:
   * `karate calc.feature -u`
-* refer to [this video](https://twitter.com/ptrthomas/status/1139227647496445952) for a demo and explanation 
 
 ## Notes
 * no IDE or code compilation required
