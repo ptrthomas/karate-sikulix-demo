@@ -8,10 +8,10 @@ Scenario:
 * def app = new App('Calculator')
 # narrow down visual search region
 * def r = App.focusedWindow()
-* eval r.click('calc-one.png')
-* eval r.click('calc-plus.png')
-* eval r.click('calc-two.png')
-* eval r.click('calc-equals.png')
+* r.click('calc-one.png')
+* r.click('calc-plus.png')
+* r.click('calc-two.png')
+* r.click('calc-equals.png')
 * def m = s.wait('calc-result-three.png')
 * assert m != null
-* eval app.close()
+* app.close()

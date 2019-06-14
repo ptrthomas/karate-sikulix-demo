@@ -7,8 +7,9 @@ Scenario:
 * def App = Java.type('org.sikuli.script.App')
 * def Settings = Java.type('org.sikuli.basics.Settings')
 * def ImagePath = Java.type('org.sikuli.script.ImagePath')
-* eval ImagePath.add('images')
-* eval Settings.Highlight = true
+
+* ImagePath.add('images')
+* Settings.Highlight = true
 * def s = new Screen()
 
 * def Runtime = Java.type('java.lang.Runtime').getRuntime()

@@ -6,7 +6,8 @@ What is notable is how you can use the [Karate UI](https://github.com/intuit/kar
 ## Instructions
 * clone this Git repository
 * download the latest `sikulixapi.jar` from [here](https://raiman.github.io/SikuliX1/downloads.html)
-* download the latest Karate standalone JAR (`karate-0.9.4.BETA1.jar`) from [here](https://dl.bintray.com/ptrthomas/karate)
+* download the latest Karate standalone JAR (`karate-0.9.4.BETA2.jar`) from [here](https://dl.bintray.com/ptrthomas/karate)
+  * `BETA2` has a nice improvement where the `eval` keyword is optional for method calls on variables
 * place both JAR files in the same folder as the project you cloned, and rename the Karate JAR to `karate.jar`
 * run the command:
   * `karate calc.feature`
