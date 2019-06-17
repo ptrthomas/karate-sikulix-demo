@@ -1,0 +1,1 @@
+java -cp karate.jar:sikulixapi.jar com.intuit.karate.Main $*

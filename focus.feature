@@ -1,6 +1,9 @@
 @ignore
-Feature: example of use: 
-* call read('focus.feature')
+Feature: 
+  example of use:
+  * call read('focus.feature')
+  for a mac, this should be sufficient:
+  * s.type(Key.TAB, Key.CMD)
 
 Scenario:
 # use keyboard to switch to the "previous" app window
