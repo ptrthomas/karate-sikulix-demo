@@ -10,6 +10,7 @@ What is notable is how you can use the [Karate UI](https://github.com/intuit/kar
   * verify this on the command line by typing: `java -version`
 * clone this Git repository or simply download it as a zip file and extract it
 * download the latest `sikulixapi.jar` from [here](https://raiman.github.io/SikuliX1/downloads.html)
+  * this may not be needed if you only want to run the [other demos](#other-demos)
 * download the latest Karate standalone JAR (`karate-0.9.4.BETA3.jar`) from [here](https://dl.bintray.com/ptrthomas/karate)
 * place both JAR files in the same folder as the project you cloned, and rename the Karate JAR to `karate.jar`
 * run the command:
@@ -18,7 +19,7 @@ What is notable is how you can use the [Karate UI](https://github.com/intuit/kar
   * `karate calc.feature -u`
 
 ## Notes
-* no IDE or code compilation required
+* no Java IDE or code compilation required
 * with a "visual" approach, there is no need to worry about getting the control names or id-s and messing around with "inspect.exe"
 * being able to step-through and re-play steps is key to maintenance in the long term
 * Karate makes things like re-usable functions, assertions and reports possible
@@ -34,7 +35,7 @@ Note that you need the `sikulixapi.jar` only for the first one below.
 |`java -jar karate.jar graphql.feature` | GraphQL web-service API test that shows off advanced JSON assertions in the response. Make sure you view the HTML reports in `target/cucumber-html-reports`
 | `java -jar karate.jar github.feature` | Uses Chrome and Karate's [native web-browser UI automation](https://github.com/intuit/karate/tree/master/karate-core) capabilities
 | `java -jar karate.jar -m cats-mock.feature -p 8080` | Starts [mock API server](https://github.com/intuit/karate/tree/master/karate-netty#mock-server) on port `8080`, now you can open `cats.html` from the file system and play around. This demonstrates how web-dev teams can use Karate.
-| `java -jar karate.jar cats-test.feature` | Runs a test using the mock server above (which has to be started and running first)
+| `java -jar karate.jar cats-test.feature` | Runs a test against the mock server above (which has to be started and running first)
 | `java -jar karate.jar cats-test.feature -e mock` | Shows how a karate feature can start a mock automatically using JavaScript. Compare this with the command above. |
 
 
