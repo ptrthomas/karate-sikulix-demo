@@ -10,13 +10,13 @@ What is notable is how you can use the [Karate UI](https://github.com/intuit/kar
   * verify this on the command line by typing: `java -version`
 * clone this Git repository or simply download it as a zip file and extract it
 * download the latest `sikulixapi.jar` from [here](https://raiman.github.io/SikuliX1/downloads.html)
-  * this may not be needed if you only want to run the [other demos](#other-demos)
+  * this is optional if you only want to run the [other demos](#other-demos)
 * download the latest Karate standalone JAR (`karate-0.9.4.BETA3.jar`) from [here](https://dl.bintray.com/ptrthomas/karate)
-* place both JAR files in the same folder as the project you cloned, and rename the Karate JAR to `karate.jar`
-* run the command:
+* place the JAR file(s) in the same folder as the project you cloned, and rename the Karate JAR to `karate.jar`
+* (Windows only) run the command:
   * `karate calc.feature`
-* you can also step-through using the Karate UI:
-  * `karate calc.feature -u`
+  * you can also step-through using the Karate UI:
+    * `karate calc.feature -u`
 
 ## Notes
 * no Java IDE or code compilation required
