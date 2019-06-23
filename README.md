@@ -32,9 +32,9 @@ Note that you need the `sikulixapi.jar` only for the first one below.
 | Command | Description |
 | ------- | ----------- |
 `./karate web-mac.feature` | Mac only (you may need to make the `karate` batch file [executable](https://stackoverflow.com/a/5126052/143475) first) demo of using SikuliX to automate a web-browser "visually". You can try to edit the test to use another browser, [see video](https://twitter.com/ptrthomas/status/1140644188960112640)
-`java -jar karate.jar calc-driver.feature` | Using the Microsoft [WinAppDriver](https://github.com/Microsoft/WinAppDriver) and Karate's [UI automation](https://github.com/intuit/karate/tree/master/karate-core) capabilities, and you can compare this with `calc.feature` which uses SikuliX
+`java -jar karate.jar calc-driver.feature` | (Windows only) using the Microsoft [WinAppDriver](https://github.com/Microsoft/WinAppDriver) and Karate's [UI automation](https://github.com/intuit/karate/tree/master/karate-core) capabilities, and you can compare this with `calc.feature` which uses SikuliX
 `java -jar karate.jar graphql.feature` | GraphQL web-service API test that shows off advanced JSON assertions in the response. Make sure you view the HTML reports in `target/cucumber-html-reports`
-`java -jar karate.jar github.feature` | Uses Chrome and Karate's [native web-browser UI automation](https://github.com/intuit/karate/tree/master/karate-core) capabilities
+`java -jar karate.jar github.feature` | Uses Chrome and Karate's [native web-browser UI automation](https://github.com/intuit/karate/tree/master/karate-core) capabilities, this should work out of the box if you have Chrome installed
 `java -jar karate.jar -m cats-mock.feature -p 8080` | Starts [mock API server](https://github.com/intuit/karate/tree/master/karate-netty#mock-server) on port `8080`, now you can open `cats.html` from the file system and play around. This demonstrates how web-dev teams can use Karate.
 `java -jar karate.jar cats-test.feature` | Runs a test against the mock server above (which has to be started and running first)
 `java -jar karate.jar cats-test.feature -e mock` | Shows how a karate feature can start a mock automatically using JavaScript. Compare this with the command above. |
