@@ -4,7 +4,7 @@ Background:
 * call read('common.feature')
 
 Scenario:
-* eval Runtime.exec('calc')
+* Runtime.exec('calc')
 * def app = new App('Calculator')
 # narrow down visual search region
 * def r = App.focusedWindow()
