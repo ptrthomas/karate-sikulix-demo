@@ -23,7 +23,7 @@ What is notable is how you can use the [Karate UI](https://github.com/intuit/kar
 * with a "visual" approach, there is no need to worry about getting the control names or id-s and messing around with "inspect.exe"
 * being able to step-through and re-play steps is key to maintenance in the long term
 * Karate makes things like re-usable functions, assertions and reports possible
-* you can use this Visual Studio Code plugin for [Cucumber / Gherkin](https://marketplace.visualstudio.com/items?itemName=stevejpurves.cucumber)
+* the [Karate Visual Studio Code extension](https://marketplace.visualstudio.com/items?itemName=kirkslota.karate-runner) created by [Kirk Slota](https://twitter.com/kirk_slota) allows you to [run a feature file directly](https://twitter.com/KarateDSL/status/1149828960101924864) from the IDE.
 
 ## Other Demos
 
