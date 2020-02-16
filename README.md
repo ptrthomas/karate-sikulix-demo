@@ -1,4 +1,9 @@
+:warning: After more experiments, I came to the conclusion that SikuliX was not stable enough, and at least in my opinion, it is a very old code-base and not well designed. So I decided to re-write SikuliX as part of the Karate project.
+
+[karate-robot](https://github.com/intuit/karate/tree/master/karate-robot) is available from version 0.9.5 onwards. Desktop automation is something that many teams need, so please contribute !
+
 # karate-sikulix-demo
+
 Demo of using [Karate](https://github.com/intuit/karate) and [SikuliX](http://sikulix.com) for visual testing of Windows desktop apps. And other Karate capabilities that show off the language-neutral [stand-alone executable](https://github.com/intuit/karate/tree/master/karate-netty#standalone-jar).
 
 What is notable is how you can use the [Karate UI](https://github.com/intuit/karate/wiki/Karate-UI) to step-through and debug / troubleshoot tests. Click the image below to watch a demo video.
